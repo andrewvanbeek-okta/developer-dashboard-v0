@@ -9,6 +9,9 @@ var bodyParser = require('body-parser')
 var cors = require('cors')
 const uuidv4 = require('uuid/v4');
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
+//https://roninskd-api-sample.glitch.me
+//https://my-express-restapi.glitch.me
+//https://coconut-express-api.glitch.me
 
 app.use(bodyParser.json());
 app.use(cors())
